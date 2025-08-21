@@ -1,0 +1,36 @@
+# Requisitos Funcionais e não Funcionais para o sistema de uma clínica:
+
+### Funcionais:
+- Usuário deve efetuar Login utilizando credenciais. 
+- O sistema deve permitir que o usuário se cadastre efetuando confirmação da senha. 
+- O sistema deve permitir que o usuário recupere sua conta ao esquecer a senha. 
+- O sistema deve gerar um token JWT de autenticação ao usuário efetuar login. 
+- O sistema deve gerencias os tipos de usuário (roles/papéis) e controlar o que cada usuário pode fazer.
+- O sistema deve apresentar um levantamento de estatísticas/dashboard apresentando os seguintes dados cadastros: Quantidade de pacientes, consultas, exames. 
+- O sistema deve permitir a listagem de pacientes contendo suas informações. 
+- O sistema deve permitir a busca de pacientes pelo: nome, email ou telefone. 
+- O sistema deve permitir o cadastro de pacientes através das seguintes informações: Nome, endereço, telefone, alergias, data de nascimento…
+- O sistema deve permitir a adição de pacientes através das seguintes informações: Nome, endereço, telefone, alergias, data de nascimento…
+- O sistema deve permitir a exclusão de um paciente através do ID do paciente/usuário.
+- O sistema deve permitir a listagem de prontuários contendo a: Quantidade de registros, nome e convênio.
+- O sistema deve permitir a busca de prontuários utilizando: Nome ou identificador. 
+- O sistema deve permitir a visualização dos detalhes de um prontuário. 
+- O sistema deve exibir permitir a visualização das informações de um paciente contendo nome, alergia e convênio
+- O sistema deve permitir a listagem do histórico de consultas contendo as seguintes informações: Motivo da consulta, descrição medicação, dosagem, precauções.
+- O sistema deve permitir a listagem do histórico de exames contendo as seguintes informações: Nome, data, tipo, laboratório, link para o anexo e resultados.
+- O sistema deve permitir a edição de um histórico de consulta.
+- O sistema deve permitir a exclusão de um histórico de consulta.
+- O sistema deve permitir a edição de um histórico de um exame.
+- O sistema deve permitir a exclusão de um histórico de um exame.
+- O sistema deve permitir o anexo de exames em formato PDF ou imagens.
+- O sistema deve permitir o cadastro de consultas.
+- O sistema deve permitir o cadastro de exames.
+- O sistema deve conter funcionalidades de acessibilidade como: ajuste de tema escuro/claro.
+
+### Não funcionais:
+- O sistema deve executar em computadores com 2GB de ram, 500gb de hd e contemplar sistemas operacionais mais utilizados(Windows, Linux, MacOS). 
+- O sistema deve ter um tempo de resposta de menos de 10 segundos.
+- O sistema deve criptografar todas as senhas.
+- O sistema deve exigir tokens JWT válidos em todas as rotas protegidas.
+- O sistema deve conter testes unitários e de integração contendo 80% de cobertura.
+- O sistema deve se comunicar com um banco de dados relacional
