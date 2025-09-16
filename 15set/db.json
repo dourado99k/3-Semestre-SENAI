@@ -1,0 +1,34 @@
+{
+  "equipamentos": [
+    {
+      "id": 1,
+      "title": "Novo título",
+      "views": 200
+    },
+    {
+      "id": 2,
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "title": "Makita",
+      "views": 230,
+      "id": 3
+    },
+    {
+      "title": "Makita",
+      "views": 230,
+      "id": 4
+    },
+    {
+      "title": "Makita",
+      "views": 230,
+      "id": 5
+    },
+    {
+      "title": "Makita",
+      "views": 230,
+      "id": 6
+    }
+  ]
+}
