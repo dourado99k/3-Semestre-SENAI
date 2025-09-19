@@ -1,0 +1,15 @@
+.form{
+    margin-bottom: 1rem;
+}
+
+.list li{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button{
+    cursor: pointer;
+}
