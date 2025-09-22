@@ -1,0 +1,14 @@
+{
+  "equipamentos": [
+    {
+      "id": 1,
+      "Ferramenta": "Chave De Fenda",
+      "Cor": "Laranja"
+    },
+    {
+        "id": 2,
+        "Ferramenta": "Makita",
+        "Cor": "Azul"
+      }
+  ]
+}
