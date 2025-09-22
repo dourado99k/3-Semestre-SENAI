@@ -1,0 +1,9 @@
+{
+  "type:": "module",
+  "scripts": {
+    "test-mod": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "jest": "^30.1.3"
+  }
+}
